@@ -1,0 +1,496 @@
+FileBase	H:\KlustaMat\exampleData\axona\110128_1400_openfield
+ElecNo	10
+UseFeatures	1
+DropLastNFeatures	0
+UseDistributional	0
+MaskStarts	500
+MinClusters	1
+MaxClusters	30
+MaxPossibleClusters	100
+nStarts	1
+StartCluFile	
+SplitEvery	40
+SplitFirst	20
+PenaltyK	0.000000
+PenaltyKLogN	1.000000
+Subset	1
+FullStepEvery	20
+MaxIter	500
+RandomSeed	1
+Debug	0
+SplitInfo	655617
+Verbose	0
+DistDump	0
+DistThresh	6.907800
+ChangedThresh	0.050000
+Log	1
+Screen	0
+PriorPoint	1
+SaveSorted	0
+SaveCovarianceMeans	0
+UseMaskedInitialConditions	0
+AssignToFirstClosestMask	0
+help	0
+----------------------------------------------------------
+Loaded 15 data points of dimension 1.
+MEMO: A lower score indicates a better clustering 
+ 
+Starting from 1 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 1 initial classes randomly.
+Score: Raw 0.000000 + Penalty 0.000000 = 0.000000Writing temp clu file 
+Compute initial score before splitting: Score: Raw 0.000000 + Penalty 0.000000 = 0.000000Time taken for this iteration:0.015000 seconds.
+ 1->1 Clusters: Score 0.000000, best is 100000000000000010000000000000000.000000
+THE BEST YET!
+
+
+Starting from 2 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 2 initial classes randomly.
+Score: Raw 0.995861 + Penalty 4.062075 = 5.057937Writing temp clu file 
+Compute initial score before splitting: Score: Raw 0.995861 + Penalty 4.062075 = 5.057937	SP: Assigned 2 initial classes randomly.
+Score: Raw 0.995861 + Penalty 4.062075 = 5.057937	SP: Assigned 3 initial classes randomly.
+Score: Raw 7.500548 + Penalty 8.124151 = 15.624699Score: Raw 0.995861 + Penalty 4.062075 = 5.057937Time taken for this iteration:0.015000 seconds.
+ 2->2 Clusters: Score 5.057937, best is 0.000000
+
+
+Starting from 3 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 3 initial classes randomly.
+Deleting Class 1 (3 points): Lose 1.410633 but Gain 4.062075
+Score: Raw 7.720794 + Penalty 4.062075 = 11.782869Score: Raw 2.148244 + Penalty 4.062075 = 6.210319Writing temp clu file 
+Compute initial score before splitting: Score: Raw 2.148244 + Penalty 4.062075 = 6.210319	SP: Assigned 2 initial classes randomly.
+Score: Raw -0.834737 + Penalty 3.958586 = 3.123849	SP: Assigned 3 initial classes randomly.
+Score: Raw 4.085034 + Penalty 7.917172 = 12.002206Score: Raw -0.834737 + Penalty 3.958586 = 3.123849Time taken for this iteration:0.016000 seconds.
+ 3->2 Clusters: Score 6.210319, best is 0.000000
+
+
+Starting from 4 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 4 initial classes randomly.
+Deleting Class 2 (1 points): Lose 0.324981 but Gain 4.062075
+Score: Raw 13.034732 + Penalty 8.124151 = 21.158883Deleting Class 1 (1 points): Lose 1.133059 but Gain 4.062075
+Score: Raw 4.710327 + Penalty 4.062075 = 8.772402Score: Raw 1.669563 + Penalty 4.062075 = 5.731638Writing temp clu file 
+Compute initial score before splitting: Score: Raw 1.669563 + Penalty 4.062075 = 5.731638	SP: Assigned 2 initial classes randomly.
+Score: Raw -1.313418 + Penalty 3.958586 = 2.645168	SP: Assigned 3 initial classes randomly.
+Score: Raw 5.072044 + Penalty 7.917172 = 12.989216Score: Raw -9.217351 + Penalty 7.917172 = -1.300179Score: Raw -6.234370 + Penalty 8.124151 = 1.889780
+Splitting cluster 3 changes total score from 5.731638 to 1.889780
+
+ So it's getting split into cluster 1.
+Score: Raw -6.234370 + Penalty 8.124151 = 1.889780Writing temp clu file 
+Compute initial score before splitting: Score: Raw -6.234370 + Penalty 8.124151 = 1.889780	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.773241 + Penalty 3.295837 = -10.477404	SP: Assigned 3 initial classes randomly.
+Score: Raw -12.540166 + Penalty 3.295837 = -9.244329Score: Raw -13.773241 + Penalty 3.295837 = -10.477404	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -3.173448 + Penalty 4.828314 = 1.654866Score: Raw 13.706209 + Penalty 2.414157 = 16.120366Score: Raw -3.674750 + Penalty 2.414157 = -1.260593Time taken for this iteration:0.016000 seconds.
+ 4->3 Clusters: Score 1.889780, best is 0.000000
+
+
+Starting from 5 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 5 initial classes randomly.
+Deleting Class 2 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 13.763499 + Penalty 12.186226 = 25.949725Deleting Class 3 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw -6.772667 + Penalty 8.124151 = 1.351483Score: Raw -8.969892 + Penalty 8.124151 = -0.845741Writing temp clu file 
+Compute initial score before splitting: Score: Raw -8.969892 + Penalty 8.124151 = -0.845741	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.427240 + Penalty 2.079442 = -5.347798	SP: Assigned 3 initial classes randomly.
+Score: Raw -5.987649 + Penalty 2.079442 = -3.908207Score: Raw -7.427240 + Penalty 2.079442 = -5.347798	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.773241 + Penalty 3.295837 = -10.477404	SP: Assigned 3 initial classes randomly.
+Score: Raw -9.879242 + Penalty 6.591674 = -3.287568Score: Raw -13.773241 + Penalty 3.295837 = -10.477404Time taken for this iteration:0.016000 seconds.
+ 5->3 Clusters: Score -0.845741, best is 0.000000
+THE BEST YET!
+
+
+Starting from 6 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 6 initial classes randomly.
+Deleting Class 1 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 9.384241 + Penalty 12.186226 = 21.570467Score: Raw -1.147476 + Penalty 8.124151 = 6.976675Writing temp clu file 
+Compute initial score before splitting: Score: Raw -1.147476 + Penalty 8.124151 = 6.976675	SP: Assigned 2 initial classes randomly.
+Score: Raw -12.953854 + Penalty 2.918865 = -10.034988	SP: Assigned 3 initial classes randomly.
+Score: Raw -11.509844 + Penalty 2.918865 = -8.590979Score: Raw -12.953854 + Penalty 2.918865 = -10.034988	SP: Assigned 2 initial classes randomly.
+Score: Raw 2.351434 + Penalty 3.119162 = 5.470597	SP: Assigned 3 initial classes randomly.
+Score: Raw 2.705026 + Penalty 6.238325 = 8.943350Score: Raw 6.433068 + Penalty 3.119162 = 9.552231Score: Raw 2.351434 + Penalty 3.119162 = 5.470597Time taken for this iteration:0.015000 seconds.
+ 6->3 Clusters: Score 6.976675, best is -0.845741
+
+
+Starting from 7 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 7 initial classes randomly.
+Deleting Class 1 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 7.799793 + Penalty 16.248301 = 24.048094Score: Raw -5.541223 + Penalty 8.124151 = 2.582927Score: Raw -6.234370 + Penalty 8.124151 = 1.889780Writing temp clu file 
+Compute initial score before splitting: Score: Raw -6.234370 + Penalty 8.124151 = 1.889780	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.773241 + Penalty 3.295837 = -10.477404	SP: Assigned 3 initial classes randomly.
+Score: Raw -8.568707 + Penalty 6.591674 = -1.977033Score: Raw -16.666051 + Penalty 6.591674 = -10.074378	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -2.340261 + Penalty 2.414157 = 0.073896Score: Raw -3.674750 + Penalty 2.414157 = -1.260593Time taken for this iteration:0.016000 seconds.
+ 7->3 Clusters: Score 1.889780, best is -0.845741
+
+
+Starting from 8 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 8 initial classes randomly.
+Deleting Class 6 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 10.604793 + Penalty 16.248301 = 26.853094Score: Raw -0.422045 + Penalty 8.124151 = 7.702106Score: Raw -2.599882 + Penalty 8.124151 = 5.524268Writing temp clu file 
+Compute initial score before splitting: Score: Raw -2.599882 + Penalty 8.124151 = 5.524268	SP: Assigned 2 initial classes randomly.
+Score: Raw -1.429531 + Penalty 2.918865 = 1.489334	SP: Assigned 3 initial classes randomly.
+Score: Raw 0.977510 + Penalty 5.837730 = 6.815240Score: Raw -7.956830 + Penalty 5.837730 = -2.119099Score: Raw -9.127181 + Penalty 12.186226 = 3.059045
+Splitting cluster 5 changes total score from 5.524268 to 3.059045
+
+ So it's getting split into cluster 1.
+	SP: Assigned 2 initial classes randomly.
+Score: Raw -12.953854 + Penalty 2.918865 = -10.034988	SP: Assigned 3 initial classes randomly.
+Score: Raw -8.818963 + Penalty 5.837730 = -2.981233Score: Raw -12.953854 + Penalty 2.918865 = -10.034988Score: Raw -9.127181 + Penalty 12.186226 = 3.059045Writing temp clu file 
+Compute initial score before splitting: Score: Raw -9.127181 + Penalty 12.186226 = 3.059045	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -4.188743 + Penalty 4.828314 = 0.639570	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 3 initial classes randomly.
+Score: Raw 2.197225 + Penalty 0.000000 = 2.197225Score: Raw 0.000000 + Penalty 0.000000 = 0.000000
+ Split failed - leaving alone
+	SP: Assigned 2 initial classes randomly.
+Score: Raw -12.953854 + Penalty 2.918865 = -10.034988	SP: Assigned 3 initial classes randomly.
+Score: Raw -13.737545 + Penalty 5.837730 = -7.899815Score: Raw -14.361716 + Penalty 5.837730 = -8.523985Time taken for this iteration:0.031000 seconds.
+ 8->4 Clusters: Score 3.059045, best is -0.845741
+
+
+Starting from 9 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 9 initial classes randomly.
+Deleting Class 3 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 8.671226 + Penalty 16.248301 = 24.919527Score: Raw -4.329454 + Penalty 12.186226 = 7.856771Score: Raw -5.270286 + Penalty 12.186226 = 6.915940Score: Raw -9.127181 + Penalty 12.186226 = 3.059045Writing temp clu file 
+Compute initial score before splitting: Score: Raw -9.127181 + Penalty 12.186226 = 3.059045	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -3.173448 + Penalty 4.828314 = 1.654866Score: Raw 13.706209 + Penalty 2.414157 = 16.120366Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 2 initial classes randomly.
+Score: Raw -12.953854 + Penalty 2.918865 = -10.034988	SP: Assigned 3 initial classes randomly.
+Score: Raw -14.628838 + Penalty 5.837730 = -8.791107	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 3 initial classes randomly.
+Score: Raw 2.197225 + Penalty 0.000000 = 2.197225Score: Raw 0.000000 + Penalty 0.000000 = 0.000000
+ Split failed - leaving alone
+Time taken for this iteration:0.016000 seconds.
+ 9->4 Clusters: Score 3.059045, best is -0.845741
+
+
+Starting from 10 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 10 initial classes randomly.
+Deleting Class 7 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 8.560824 + Penalty 16.248301 = 24.809125Deleting Class 8 (4 points): Lose 3.212931 but Gain 4.062075
+Score: Raw 2.598991 + Penalty 8.124151 = 10.723142Score: Raw -2.422179 + Penalty 8.124151 = 5.701972Writing temp clu file 
+Compute initial score before splitting: Score: Raw -2.422179 + Penalty 8.124151 = 5.701972	SP: Assigned 2 initial classes randomly.
+Score: Raw -14.191683 + Penalty 2.414157 = -11.777527	SP: Assigned 3 initial classes randomly.
+Score: Raw -12.942819 + Penalty 2.414157 = -10.528662Score: Raw -14.191683 + Penalty 2.414157 = -11.777527	SP: Assigned 2 initial classes randomly.
+Score: Raw -1.085508 + Penalty 3.119162 = 2.033655	SP: Assigned 3 initial classes randomly.
+Score: Raw 2.712833 + Penalty 6.238325 = 8.951158Score: Raw -1.085508 + Penalty 3.119162 = 2.033655Time taken for this iteration:0.015000 seconds.
+ 10->3 Clusters: Score 5.701972, best is -0.845741
+
+
+Starting from 11 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 11 initial classes randomly.
+Deleting Class 5 (1 points): Lose 0.641387 but Gain 4.062075
+Score: Raw 9.049419 + Penalty 12.186226 = 21.235645Score: Raw -9.242633 + Penalty 12.186226 = 2.943593Writing temp clu file 
+Compute initial score before splitting: Score: Raw -9.242633 + Penalty 12.186226 = 2.943593	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 3 initial classes randomly.
+Score: Raw 2.197225 + Penalty 0.000000 = 2.197225Score: Raw 0.000000 + Penalty 0.000000 = 0.000000
+ Split failed - leaving alone
+	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.069305 + Penalty 2.918865 = -10.150440	SP: Assigned 3 initial classes randomly.
+Score: Raw -15.771132 + Penalty 5.837730 = -9.933401	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -4.768703 + Penalty 4.828314 = 0.059611Score: Raw 13.706209 + Penalty 2.414157 = 16.120366Score: Raw -3.674750 + Penalty 2.414157 = -1.260593Time taken for this iteration:0.016000 seconds.
+ 11->4 Clusters: Score 2.943593, best is -0.845741
+
+
+Starting from 12 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 12 initial classes randomly.
+Deleting Class 3 (2 points): Lose 0.216261 but Gain 4.062075
+Score: Raw 19.401738 + Penalty 12.186226 = 31.587964Deleting Class 9 (3 points): Lose 2.124495 but Gain 4.062075
+Score: Raw -0.944289 + Penalty 8.124151 = 7.179861Score: Raw -6.234370 + Penalty 8.124151 = 1.889780Writing temp clu file 
+Compute initial score before splitting: Score: Raw -6.234370 + Penalty 8.124151 = 1.889780	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.773241 + Penalty 3.295837 = -10.477404	SP: Assigned 3 initial classes randomly.
+Score: Raw -10.655206 + Penalty 6.591674 = -4.063532Score: Raw -16.666051 + Penalty 6.591674 = -10.074378	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -4.688267 + Penalty 4.828314 = 0.140046Score: Raw 13.706209 + Penalty 2.414157 = 16.120366Score: Raw -3.674750 + Penalty 2.414157 = -1.260593Time taken for this iteration:0.016000 seconds.
+ 12->3 Clusters: Score 1.889780, best is -0.845741
+
+
+Starting from 13 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 13 initial classes randomly.
+Deleting Class 2 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 26.454379 + Penalty 16.248301 = 42.702680Score: Raw 1.669563 + Penalty 4.062075 = 5.731638Writing temp clu file 
+Compute initial score before splitting: Score: Raw 1.669563 + Penalty 4.062075 = 5.731638	SP: Assigned 2 initial classes randomly.
+Score: Raw -1.313418 + Penalty 3.958586 = 2.645168	SP: Assigned 3 initial classes randomly.
+Score: Raw 4.988403 + Penalty 7.917172 = 12.905575Score: Raw -1.313418 + Penalty 3.958586 = 2.645168Time taken for this iteration:0.000000 seconds.
+ 13->2 Clusters: Score 5.731638, best is -0.845741
+
+
+Starting from 14 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 14 initial classes randomly.
+Deleting Class 11 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 6.324972 + Penalty 16.248301 = 22.573273Score: Raw -8.549485 + Penalty 12.186226 = 3.636740Score: Raw -9.242633 + Penalty 12.186226 = 2.943593Writing temp clu file 
+Compute initial score before splitting: Score: Raw -9.242633 + Penalty 12.186226 = 2.943593	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.069305 + Penalty 2.918865 = -10.150440	SP: Assigned 3 initial classes randomly.
+Score: Raw -9.117935 + Penalty 5.837730 = -3.280204Score: Raw -13.069305 + Penalty 2.918865 = -10.150440	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 3 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -3.363149 + Penalty 4.828314 = 1.465164Score: Raw -4.328265 + Penalty 4.828314 = 0.500049Score: Raw 13.706209 + Penalty 2.414157 = 16.120366Score: Raw -3.674750 + Penalty 2.414157 = -1.260593Time taken for this iteration:0.015000 seconds.
+ 14->4 Clusters: Score 2.943593, best is -0.845741
+
+
+Starting from 15 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 15 initial classes randomly.
+Deleting Class 14 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 5.194636 + Penalty 20.310377 = 25.505012Deleting Class 5 (2 points): Lose 3.597101 but Gain 4.062075
+Score: Raw -2.112947 + Penalty 12.186226 = 10.073279Score: Raw -6.824755 + Penalty 12.186226 = 5.361470Score: Raw -11.862703 + Penalty 12.186226 = 0.323523Writing temp clu file 
+Compute initial score before splitting: Score: Raw -11.862703 + Penalty 12.186226 = 0.323523	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 3 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.427240 + Penalty 2.079442 = -5.347798	SP: Assigned 3 initial classes randomly.
+Score: Raw -5.993871 + Penalty 4.158883 = -1.834988	SP: Assigned 2 initial classes randomly.
+Score: Raw -12.953854 + Penalty 2.918865 = -10.034988	SP: Assigned 3 initial classes randomly.
+Score: Raw -8.867248 + Penalty 5.837730 = -3.029518Score: Raw -12.953854 + Penalty 2.918865 = -10.034988Time taken for this iteration:0.031000 seconds.
+ 15->4 Clusters: Score 0.323523, best is -0.845741
+
+
+Starting from 16 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 16 initial classes randomly.
+Deleting Class 6 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 18.197379 + Penalty 8.124151 = 26.321529Deleting Class 10 (1 points): Lose 0.439912 but Gain 4.062075
+Score: Raw 4.724409 + Penalty 4.062075 = 8.786485Score: Raw 1.527969 + Penalty 4.062075 = 5.590045Writing temp clu file 
+Compute initial score before splitting: Score: Raw 1.527969 + Penalty 4.062075 = 5.590045	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.555892 + Penalty 3.847424 = 0.291532	SP: Assigned 3 initial classes randomly.
+Score: Raw 1.249288 + Penalty 7.694848 = 8.944136Score: Raw -3.555892 + Penalty 3.847424 = 0.291532Time taken for this iteration:0.000000 seconds.
+ 16->2 Clusters: Score 5.590045, best is -0.845741
+
+
+Starting from 17 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 17 initial classes randomly.
+Deleting Class 11 (1 points): Lose 0.119405 but Gain 4.062075
+Score: Raw 6.757983 + Penalty 16.248301 = 23.006284Score: Raw -7.194877 + Penalty 12.186226 = 4.991349Score: Raw -11.862703 + Penalty 12.186226 = 0.323523Writing temp clu file 
+Compute initial score before splitting: Score: Raw -11.862703 + Penalty 12.186226 = 0.323523	SP: Assigned 2 initial classes randomly.
+Score: Raw -12.953854 + Penalty 2.918865 = -10.034988	SP: Assigned 3 initial classes randomly.
+Score: Raw -8.818963 + Penalty 5.837730 = -2.981233Score: Raw -12.953854 + Penalty 2.918865 = -10.034988	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.427240 + Penalty 2.079442 = -5.347798	SP: Assigned 3 initial classes randomly.
+Score: Raw -5.670824 + Penalty 2.079442 = -3.591383Score: Raw -7.427240 + Penalty 2.079442 = -5.347798	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 3 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427Time taken for this iteration:0.016000 seconds.
+ 17->4 Clusters: Score 0.323523, best is -0.845741
+
+
+Starting from 18 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 18 initial classes randomly.
+Unmasked E-step: Deleting class 2 (2 points): covariance matrix is singular 
+Deleting Class 15 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 3.257078 + Penalty 8.124151 = 11.381229Score: Raw 15.884856 + Penalty 4.062075 = 19.946931Deleting Class 14 (2 points): Lose 2.404034 but Gain 4.062075
+Score: Raw 2.002971 + Penalty 0.000000 = 2.002971Score: Raw 0.000000 + Penalty 0.000000 = 0.000000Writing temp clu file 
+Compute initial score before splitting: Score: Raw 0.000000 + Penalty 0.000000 = 0.000000Time taken for this iteration:0.016000 seconds.
+ 18->1 Clusters: Score 0.000000, best is -0.845741
+
+
+Starting from 19 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 19 initial classes randomly.
+Deleting Class 1 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 6.405985 + Penalty 16.248301 = 22.654287Score: Raw -12.765376 + Penalty 16.248301 = 3.482925Writing temp clu file 
+Compute initial score before splitting: Score: Raw -12.765376 + Penalty 16.248301 = 3.482925	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -4.328265 + Penalty 4.828314 = 0.500049Score: Raw 13.706209 + Penalty 2.414157 = 16.120366Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 3 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 2 initial classes randomly.
+Score: Raw -6.170192 + Penalty 1.647918 = -4.522274	SP: Assigned 3 initial classes randomly.
+Score: Raw -6.170192 + Penalty 1.647918 = -4.522274	SP: Assigned 2 initial classes randomly.
+Score: Raw -14.381312 + Penalty 2.079442 = -12.301870	SP: Assigned 3 initial classes randomly.
+Unmasked E-step: Deleting class 2 (2 points): covariance matrix is singular 
+Score: Raw -9.320994 + Penalty 4.158883 = -5.162111Score: Raw -14.381312 + Penalty 2.079442 = -12.301870Time taken for this iteration:0.015000 seconds.
+ 19->5 Clusters: Score 3.482925, best is -0.845741
+
+
+Starting from 20 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 20 initial classes randomly.
+Deleting Class 17 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 14.083307 + Penalty 20.310377 = 34.393684Deleting Class 12 (4 points): Lose 3.856345 but Gain 4.062075
+Score: Raw -1.667884 + Penalty 12.186226 = 10.518342Score: Raw -9.862052 + Penalty 12.186226 = 2.324174Writing temp clu file 
+Compute initial score before splitting: Score: Raw -9.862052 + Penalty 12.186226 = 2.324174	SP: Assigned 2 initial classes randomly.
+Score: Raw -14.381312 + Penalty 2.079442 = -12.301870	SP: Assigned 3 initial classes randomly.
+Score: Raw -12.627847 + Penalty 4.158883 = -8.468964Score: Raw -11.587118 + Penalty 2.079442 = -9.507676Score: Raw -14.381312 + Penalty 2.079442 = -12.301870	SP: Assigned 2 initial classes randomly.
+Score: Raw -6.170192 + Penalty 1.647918 = -4.522274	SP: Assigned 3 initial classes randomly.
+Score: Raw -4.531227 + Penalty 1.647918 = -2.883308Score: Raw -6.170192 + Penalty 1.647918 = -4.522274	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.427240 + Penalty 2.079442 = -5.347798	SP: Assigned 3 initial classes randomly.
+Score: Raw -5.987649 + Penalty 2.079442 = -3.908207Score: Raw -7.427240 + Penalty 2.079442 = -5.347798Time taken for this iteration:0.016000 seconds.
+ 20->4 Clusters: Score 2.324174, best is -0.845741
+
+
+Starting from 21 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 21 initial classes randomly.
+Deleting Class 13 (3 points): Lose 0.079696 but Gain 4.062075
+Score: Raw 13.224882 + Penalty 16.248301 = 29.473183Score: Raw -8.434034 + Penalty 12.186226 = 3.752192Score: Raw -9.127181 + Penalty 12.186226 = 3.059045Writing temp clu file 
+Compute initial score before splitting: Score: Raw -9.127181 + Penalty 12.186226 = 3.059045	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 3 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 2 initial classes randomly.
+Score: Raw -12.953854 + Penalty 2.918865 = -10.034988	SP: Assigned 3 initial classes randomly.
+Score: Raw -8.893059 + Penalty 5.837730 = -3.055328Score: Raw -18.473763 + Penalty 5.837730 = -12.636032Score: Raw -14.647090 + Penalty 16.248301 = 1.601211
+Splitting cluster 7 changes total score from 3.059045 to 1.601211
+
+ So it's getting split into cluster 1.
+	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -2.340261 + Penalty 2.414157 = 0.073896Score: Raw -3.674750 + Penalty 2.414157 = -1.260593Score: Raw -14.647090 + Penalty 16.248301 = 1.601211Writing temp clu file 
+Compute initial score before splitting: Score: Raw -14.647090 + Penalty 16.248301 = 1.601211	SP: Assigned 2 initial classes randomly.
+Score: Raw -14.191683 + Penalty 2.414157 = -11.777527	SP: Assigned 3 initial classes randomly.
+Score: Raw -13.865764 + Penalty 4.828314 = -9.037450Score: Raw -7.587759 + Penalty 2.414157 = -5.173603Score: Raw -14.191683 + Penalty 2.414157 = -11.777527	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 3 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 3 initial classes randomly.
+Score: Raw 2.197225 + Penalty 0.000000 = 2.197225Score: Raw 0.000000 + Penalty 0.000000 = 0.000000
+ Split failed - leaving alone
+	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -3.363149 + Penalty 4.828314 = 1.465164Score: Raw -4.328265 + Penalty 4.828314 = 0.500049Score: Raw 13.706209 + Penalty 2.414157 = 16.120366Score: Raw -3.674750 + Penalty 2.414157 = -1.260593Time taken for this iteration:0.031000 seconds.
+ 21->5 Clusters: Score 1.601211, best is -0.845741
+
+
+Starting from 22 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 22 initial classes randomly.
+Deleting Class 15 (1 points): Lose 0.070837 but Gain 4.062075
+Score: Raw 12.400578 + Penalty 8.124151 = 20.524728Score: Raw -6.234370 + Penalty 8.124151 = 1.889780Writing temp clu file 
+Compute initial score before splitting: Score: Raw -6.234370 + Penalty 8.124151 = 1.889780	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -4.850941 + Penalty 4.828314 = -0.022627Score: Raw 13.706209 + Penalty 2.414157 = 16.120366Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.773241 + Penalty 3.295837 = -10.477404	SP: Assigned 3 initial classes randomly.
+Score: Raw -9.217799 + Penalty 6.591674 = -2.626125Score: Raw -11.290755 + Penalty 6.591674 = -4.699081Time taken for this iteration:0.016000 seconds.
+ 22->3 Clusters: Score 1.889780, best is -0.845741
+
+
+Starting from 23 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 23 initial classes randomly.
+Deleting Class 21 (2 points): Lose 0.013260 but Gain 4.062075
+Score: Raw 19.466893 + Penalty 12.186226 = 31.653119Score: Raw 0.538259 + Penalty 8.124151 = 8.662409Score: Raw -0.706622 + Penalty 8.124151 = 7.417529Writing temp clu file 
+Compute initial score before splitting: Score: Raw -0.706622 + Penalty 8.124151 = 7.417529	SP: Assigned 2 initial classes randomly.
+Score: Raw 0.579181 + Penalty 2.918865 = 3.498047	SP: Assigned 3 initial classes randomly.
+Score: Raw -0.045345 + Penalty 5.837730 = 5.792386Score: Raw -1.754889 + Penalty 5.837730 = 4.082841	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.069305 + Penalty 2.918865 = -10.150440	SP: Assigned 3 initial classes randomly.
+Score: Raw -11.626730 + Penalty 2.918865 = -8.707865Score: Raw -13.069305 + Penalty 2.918865 = -10.150440Time taken for this iteration:0.015000 seconds.
+ 23->3 Clusters: Score 7.417529, best is -0.845741
+
+
+Starting from 24 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 24 initial classes randomly.
+Deleting Class 23 (2 points): Lose 0.026933 but Gain 4.062075
+Score: Raw 21.973853 + Penalty 8.124151 = 30.098004Deleting Class 11 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw -0.255189 + Penalty 4.062075 = 3.806886Score: Raw -3.498910 + Penalty 4.062075 = 0.563165Writing temp clu file 
+Compute initial score before splitting: Score: Raw -3.498910 + Penalty 4.062075 = 0.563165	SP: Assigned 2 initial classes randomly.
+Score: Raw -12.953854 + Penalty 2.918865 = -10.034988	SP: Assigned 3 initial classes randomly.
+Score: Raw -9.051740 + Penalty 5.837730 = -3.214009Score: Raw -12.953854 + Penalty 2.918865 = -10.034988Time taken for this iteration:0.000000 seconds.
+ 24->2 Clusters: Score 0.563165, best is -0.845741
+
+
+Starting from 25 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 25 initial classes randomly.
+Deleting Class 11 (1 points): Lose 0.307130 but Gain 4.062075
+Score: Raw 30.858250 + Penalty 4.062075 = 34.920326Score: Raw 1.669563 + Penalty 4.062075 = 5.731638Writing temp clu file 
+Compute initial score before splitting: Score: Raw 1.669563 + Penalty 4.062075 = 5.731638	SP: Assigned 2 initial classes randomly.
+Score: Raw -1.313418 + Penalty 3.958586 = 2.645168	SP: Assigned 3 initial classes randomly.
+Score: Raw 5.104320 + Penalty 7.917172 = 13.021492Score: Raw -1.313418 + Penalty 3.958586 = 2.645168Time taken for this iteration:0.000000 seconds.
+ 25->2 Clusters: Score 5.731638, best is -0.845741
+
+
+Starting from 26 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 26 initial classes randomly.
+Score: Raw 7.907159 + Penalty 12.186226 = 20.093385Score: Raw -9.242633 + Penalty 12.186226 = 2.943593Writing temp clu file 
+Compute initial score before splitting: Score: Raw -9.242633 + Penalty 12.186226 = 2.943593	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.069305 + Penalty 2.918865 = -10.150440	SP: Assigned 3 initial classes randomly.
+Score: Raw -11.626730 + Penalty 2.918865 = -8.707865Score: Raw -13.069305 + Penalty 2.918865 = -10.150440	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -2.548263 + Penalty 4.828314 = 2.280051Score: Raw 13.706209 + Penalty 2.414157 = 16.120366Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.682148 + Penalty 1.039721 = -6.642427	SP: Assigned 3 initial classes randomly.
+Score: Raw 2.197225 + Penalty 0.000000 = 2.197225Score: Raw 0.000000 + Penalty 0.000000 = 0.000000
+ Split failed - leaving alone
+Time taken for this iteration:0.015000 seconds.
+ 26->4 Clusters: Score 2.943593, best is -0.845741
+
+
+Starting from 27 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 27 initial classes randomly.
+Deleting Class 25 (6 points): Lose 0.276542 but Gain 4.062075
+Score: Raw 30.017410 + Penalty 8.124151 = 38.141561Score: Raw 2.338900 + Penalty 4.062075 = 6.400975Score: Raw 1.527969 + Penalty 4.062075 = 5.590045Writing temp clu file 
+Compute initial score before splitting: Score: Raw 1.527969 + Penalty 4.062075 = 5.590045	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.555892 + Penalty 3.847424 = 0.291532	SP: Assigned 3 initial classes randomly.
+Score: Raw 3.793383 + Penalty 7.694848 = 11.488232Score: Raw -14.053753 + Penalty 7.694848 = -6.358905Score: Raw -8.969892 + Penalty 8.124151 = -0.845741
+Splitting cluster 21 changes total score from 5.590045 to -0.845741
+
+ So it's getting split into cluster 1.
+Score: Raw -8.969892 + Penalty 8.124151 = -0.845741Writing temp clu file 
+Compute initial score before splitting: Score: Raw -8.969892 + Penalty 8.124151 = -0.845741	SP: Assigned 2 initial classes randomly.
+Score: Raw -7.427240 + Penalty 2.079442 = -5.347798	SP: Assigned 3 initial classes randomly.
+Score: Raw -5.993871 + Penalty 4.158883 = -1.834988	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.773241 + Penalty 3.295837 = -10.477404	SP: Assigned 3 initial classes randomly.
+Score: Raw -8.652150 + Penalty 6.591674 = -2.060477Score: Raw -16.666051 + Penalty 6.591674 = -10.074378Time taken for this iteration:0.032000 seconds.
+ 27->3 Clusters: Score -0.845741, best is -0.845741
+
+
+Starting from 28 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 28 initial classes randomly.
+Deleting Class 14 (2 points): Lose 3.649767 but Gain 4.062075
+Score: Raw 20.123152 + Penalty 4.062075 = 24.185228Score: Raw -3.498910 + Penalty 4.062075 = 0.563165Writing temp clu file 
+Compute initial score before splitting: Score: Raw -3.498910 + Penalty 4.062075 = 0.563165	SP: Assigned 2 initial classes randomly.
+Score: Raw -12.953854 + Penalty 2.918865 = -10.034988	SP: Assigned 3 initial classes randomly.
+Score: Raw -14.227590 + Penalty 5.837730 = -8.389859Score: Raw -14.628838 + Penalty 5.837730 = -8.791107Time taken for this iteration:0.015000 seconds.
+ 28->2 Clusters: Score 0.563165, best is -0.845741
+
+
+Starting from 29 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 29 initial classes randomly.
+Deleting Class 3 (3 points): Lose 1.481919 but Gain 4.062075
+Score: Raw 14.557717 + Penalty 8.124151 = 22.681868Score: Raw -7.027576 + Penalty 8.124151 = 1.096575Writing temp clu file 
+Compute initial score before splitting: Score: Raw -7.027576 + Penalty 8.124151 = 1.096575	SP: Assigned 2 initial classes randomly.
+Score: Raw -5.484924 + Penalty 1.039721 = -4.445203	SP: Assigned 3 initial classes randomly.
+Score: Raw 2.197225 + Penalty 0.000000 = 2.197225Score: Raw 0.000000 + Penalty 0.000000 = 0.000000
+ Split failed - leaving alone
+	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.773241 + Penalty 3.295837 = -10.477404	SP: Assigned 3 initial classes randomly.
+Score: Raw -10.457749 + Penalty 6.591674 = -3.866075Score: Raw -16.666051 + Penalty 6.591674 = -10.074378Time taken for this iteration:0.016000 seconds.
+ 29->3 Clusters: Score 1.096575, best is -0.845741
+
+
+Starting from 30 clusters...
+------ Clustering full data set of 15 points ------
+	SP: Assigned 30 initial classes randomly.
+Deleting Class 17 (0 points): Lose 0.000000 but Gain 4.062075
+Score: Raw 16.228543 + Penalty 12.186226 = 28.414769Score: Raw -6.234370 + Penalty 8.124151 = 1.889780Writing temp clu file 
+Compute initial score before splitting: Score: Raw -6.234370 + Penalty 8.124151 = 1.889780	SP: Assigned 2 initial classes randomly.
+Score: Raw -13.773241 + Penalty 3.295837 = -10.477404	SP: Assigned 3 initial classes randomly.
+Score: Raw -8.899050 + Penalty 6.591674 = -2.307377Score: Raw -14.848168 + Penalty 6.591674 = -8.256494	SP: Assigned 2 initial classes randomly.
+Score: Raw -3.674750 + Penalty 2.414157 = -1.260593	SP: Assigned 3 initial classes randomly.
+Score: Raw -2.387144 + Penalty 2.414157 = 0.027013Score: Raw -3.674750 + Penalty 2.414157 = -1.260593Time taken for this iteration:0.015000 seconds.
+ 30->3 Clusters: Score 1.889780, best is -0.845741
+
+Main iterations: 82 (time per iteration =6.463415 ms)
+Total iterations: 288 (time per iteration =1.840278 ms)
+
+Def. Iteration metric 2:
+Iteration_metric2 += (scalar)(nDims*nDims)*(scalar)(nPoints)
+Iterations metric 2: 2529.000000 (time per metric unit =209568.999605ns)
+
+Def. Iteration metric 3:
+Iteration_metric3 += (scalar)(nDims*nDims)*(scalar)(nDims*nPoints)
+Iterations metric 3: 2529.000000 (time per metric unit=209568999.604587ps)
+
+That took 0.530000 seconds.
