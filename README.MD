@@ -15,6 +15,9 @@ Updates will be provided through the GitHub URL. <br>
 To update using the GitHub UI, simply sync<br>
 To update from terminal: `git pull` from the repository folder
 
+## Mailing List:
+You may join the Google group [here](https://groups.google.com/forum/#!forum/klustamat) to receive e-mail notifications when new commits are made. 
+
 ## Citation:
 The following citations should be used:
 
