@@ -8,7 +8,7 @@
    Note that if you have cluster cutting software installed that has internal integration with KlustaKwik, you still have to install this version.<br>
    
 ## Running:
-Once in your MATLAB path, you can run KlustaMat with `KlustaMat.Run()` (see file for arguments), or `KlustaMat.GUI`
+Once in your MATLAB path, you can run KlustaMat with `KlustaMat.RunAxona()` or `KlustaMat.RunNeuralynx` (see file for arguments)
 
 ## Updates:
 Updates will be provided through the GitHub URL. <br>

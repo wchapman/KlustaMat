@@ -12,12 +12,13 @@ for i = 1:100
 end
 dotNum = dotNum(ife==2);
 
-waveStruct(length(dotNum)).wave = [];
-waveStruct(length(dotNum)).name = [];
 
 %% For each file, get the waveforms:
 packetLength = 216; %Given in DacqUSBFileFormats.PDF
 for i = 1:length(dotNum)
+    
+     waveStruct(i) = KlustaMat.Internal.initWaveStruct();
+    
      fid = fopen(dotNum{i},'r','ieee-be'); %file formats PDF specifies big-endian
      for k = 1:14, fgetl(fid); end %14 full lines of metadata
      
@@ -50,7 +51,15 @@ for i = 1:length(dotNum)
      waveStruct(i).wave = double(wave);
      waveStruct(i).ts = time_stamps(:);
      waveStruct(i).ChannelNumber = str2num(dotNum{i}(strfind(dotNum{i},'.')+1:end));
+    
+     fp = dotNum{i}(1:strfind(dotNum{i},'.')-1);
+     waveStruct(i).fet = [fp '.fet.' num2str(waveStruct(i).ChannelNumber)];
+     waveStruct(i).clu = [fp '.clu.' num2str(waveStruct(i).ChannelNumber)];
+     waveStruct(i).out = [fp '_' num2str(waveStruct(i).ChannelNumber) '.cut'];
+     
      fclose(fid);
+     
+     waveStruct(i).cellWave = mat2cell(double(wave),ones(size(wave,1),1),size(wave,2),ones(size(wave,3),1));
 end
 
 waveStruct = waveStruct(:);
